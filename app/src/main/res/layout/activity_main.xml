@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Lancer Bluetooth AutoConnect" android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:textSize="16sp" />
+        <Button android:id="@+id/grantPermissions" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:text="Grant Bluetooth and notification access" />
+        <Button android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Refresh diagnostics" />
+        <Button android:id="@+id/openBluetooth" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Open Bluetooth settings" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"
+            android:text="When Hands Free System connects, this app can alert you and open Bluetooth settings. Turn on Media audio for the device there if it is off. Android does not provide third-party apps a public API to force the A2DP connection." />
+    </LinearLayout>
+</ScrollView>

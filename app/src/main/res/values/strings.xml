@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lancer Bluetooth AutoConnect</string>
+    <string name="channel_name">Lancer recovery</string>
+</resources>
